@@ -13,3 +13,6 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+#REV: you should get in the habit of adding .DS_Store to your gitignore files from now on.
+#REV: that is if you plan on dev'ing on macs from now on.
