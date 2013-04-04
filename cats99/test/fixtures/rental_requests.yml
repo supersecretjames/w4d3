@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cat: 
+  start_time: 2013-04-03
+  end_time: 2013-04-03
+  status: 1
+
+two:
+  cat: 
+  start_time: 2013-04-03
+  end_time: 2013-04-03
+  status: 1

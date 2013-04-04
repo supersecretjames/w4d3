@@ -1,0 +1,20 @@
+<h1>Add a Cat</h1>
+<form action="/cats" method="post">
+  <label for="name">Name:</label>
+  <input name = "cat[name]" id = "name" type = "text"><br />
+
+  <input name = "cat[sex]" id="male" type = "radio" value = "0">
+  <label for="male">Male</label><br />
+  <input name = "cat[sex]" id="female" type = "radio" value = "1">
+  <label for="female">Female</label><br />
+
+  <label for="location">Location:</label>
+  <input name = "location" id = "location" type = "text"><br />
+
+  <label for="color">Color:</label>
+  <input name = "color" id = "color" type = "text"><br />
+
+
+  <input type="submit" value="Create Cat">
+
+</form>
