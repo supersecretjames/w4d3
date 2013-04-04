@@ -10,7 +10,7 @@ class Article < ActiveRecord::Base
     self.tags.collect do |tag|
       tag.name
     end.join(", ")
-  end
+  end # REV Method spacing
   def tag_list=(tags_string)
     tag_names = tags_string.split(',').collect do |s|
       s.strip.downcase

@@ -1,5 +1,5 @@
 class AuthorsController < ApplicationController
-
+  # REV Seems about right!
   before_filter :zero_authors_or_authenticated, only: [:new, :create]
   before_filter :require_login, except: [:new, :create]
 

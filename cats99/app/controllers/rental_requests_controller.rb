@@ -1,5 +1,5 @@
 class RentalRequestsController < ApplicationController
-
+	# REV Seems right to me!
   def index
     @rental_requests = RentalRequest.includes(:cats)
   end
